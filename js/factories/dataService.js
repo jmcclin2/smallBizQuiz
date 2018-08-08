@@ -8,7 +8,8 @@
  
         var dataObj = {
             turtlesData: turtlesData,
-            quizQuestions: quizQuestions
+            quizQuestions: quizQuestions,
+            correctAnswers: correctAnswers
         };
      
         return dataObj;
@@ -291,5 +292,7 @@
             description: "Snake-necked turtles, as the name suggests, have an unusually long neck. Their necks may be up to 60 percent of their carapace length. Their carapace is oval and flattened, usually dark-brown to black measuring up to 11 inches (27.5 cm) in length. Scutes are shed as the animals grow. The males have a longer, thicker tail than females and a concave plastron. They are excellent swimmers; they have large, webbed feet with sharp claws used to tear apart food."
         }
     ];
+
+    var correctAnswers = [1, 2, 3, 0, 2, 0, 3, 2, 0, 3];
  
 })();
